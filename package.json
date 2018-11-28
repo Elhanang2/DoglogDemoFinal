@@ -4,10 +4,10 @@
   "description": "This project is intended to help shelters organize information about their dogs in an effort to increase pet adoption and interest in adopting from shelters.",
   "main": "server/server.js",
   "scripts": {
-    "build": "npm install && cd frontend && npm install && npm run build",
+    "build": "npm install && cd client && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "cd frontend && npm install && npm run build",
-    "dev": "nodemon server/server.js --ignore frontend/",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "dev": "nodemon server/server.js --ignore client/",
     "start": "node server/server.js"
   },
   "author": "",
