@@ -2,7 +2,7 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 
 // this is our MongoDB database
-const dbRoute = process.env.MONGO_DB_URI;
+const dbRoute = process.env.MONGODB_URI;
 // connects our back end code with the database
 mongoose.connect (dbRoute, { useNewUrlParser: true });
 mongoose.set('useCreateIndex', true);
