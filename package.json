@@ -10,8 +10,17 @@
     "dev": "nodemon server/server.js --ignore client/",
     "start": "node server/server.js"
   },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elhanang2/DoglogDemoFinal.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elhanang2/DoglogDemoFinal/issues"
+  },
+  "homepage": "https://github.com/Elhanang2/DoglogDemoFinal#readme",
   "dependencies": {
     "bcrypt": "^3.0.2",
     "body-parser": "^1.18.3",
