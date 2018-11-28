@@ -1,0 +1,134 @@
+
+h2, h3, p{
+  font-family: 'Give You Glory', cursive;
+  color: black;
+  font-size: 200%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Give+You+Glory');
+
+@media all {
+    font-family: 'Give You Glory', cursive;
+    .volunteerrating {
+      margin-top: 5px;
+      padding: 60px 0;
+    }
+    .field.form-group{
+      width: 100%;
+      height: 100%;
+      float: left;
+    }
+    .volunteerrating form {
+      border: solid 2px black;
+      margin: 0 auto;
+    }
+    .add-rating{
+    width: 60%;
+    margin: auto;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 10px;
+    }
+    input{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: solid 2px darkorange;
+        border-radius: 6px;
+        
+      }
+      button.submit.btn.btn-default{
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+      textarea.form-control{
+        margin-bottom: 20px;
+        border: solid 2px darkorange;
+        border-radius: 6px;
+      }
+
+  
+      select.form-control{
+        border: solid 2px darkorange;
+        border-radius: 6px;
+      }
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 479px){
+    font-family: 'Give You Glory', cursive;
+.field.form-group{
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.add-rating{
+    width: 60%;
+    margin: auto;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 10px;
+    border: solid 2px darkorange;
+    }
+    input{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: solid 2px darkorange;
+        border-radius: 6px;
+        
+      }
+      button.submit.btn.btn-default{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        border: solid 2px darkorange;
+      }
+      textarea.form-control{
+        margin-bottom: 20px;
+        border: solid 2px darkorange;
+        border-radius: 6px;
+      }
+      select.form-control{
+        border: solid 2px darkorange;
+        border-radius: 6px;
+      }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+  font-family: 'Give You Glory', cursive;
+  .field.form-group{
+    width: 100%;
+    float: left;
+  } 
+  .add-rating{
+    width: 60%;
+    margin: auto;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 10px;
+    }
+    input{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: solid 2px darkorange;
+        border-radius: 6px;
+        
+      }
+      button.submit.btn.btn-default{
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+      textarea.form-control{
+        margin-bottom: 20px;
+        border: solid 2px darkorange;
+        border-radius: 6px;
+      }
+      select.form-control{
+        border: solid 2px darkorange;
+        border-radius: 6px;
+      }
+}
+
+
+
+ 

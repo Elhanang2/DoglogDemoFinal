@@ -1,0 +1,29 @@
+h2, h3, p, a{
+    background-color: white;
+    font-family: 'Give You Glory', cursive;
+    color: maroon;
+    
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  
+  .btn-group-vertical{
+    margin-top: 5%;
+  }
+  nav.navbar.navbar-default
+  {
+      border: 2px solid darkorange;
+      background-color: white;
+      border-radius: 6px;
+  }
+
+  
+
+  button.button.btn.btn-default{
+      background-color: palegoldenrod;
+      border: 2px solid darkorange;
+      font-size: 40px;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Give+You+Glory');

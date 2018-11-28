@@ -1,0 +1,40 @@
+{
+  "name": "doglog",
+  "version": "1.0.0",
+  "description": "This project is intended to help shelters organize information about their dogs in an effort to increase pet adoption and interest in adopting from shelters.",
+  "main": "server/server.js",
+  "scripts": {
+    "build": "npm install && cd frontend && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd frontend && npm install && npm run build",
+    "dev": "nodemon server/server.js --ignore frontend/",
+    "start": "node server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "dog-names": "^1.0.2",
+    "dotenv": "^6.1.0",
+    "es6-promisify": "^6.0.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "lorem-ipsum": "^1.0.6",
+    "md5": "^2.2.1",
+    "mongoose": "^5.3.14",
+    "mongoose-mongodb-errors": "0.0.2",
+    "morgan": "^1.9.1",
+    "node-random-name": "^1.0.1",
+    "nodemon": "^1.18.7",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1",
+    "sha256": "^0.2.0",
+    "unique-names-generator": "^1.0.14",
+    "validator": "^10.8.0"
+  }
+}

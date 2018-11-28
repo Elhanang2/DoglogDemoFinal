@@ -1,0 +1,32 @@
+@media all and (min-width: 480px) {
+  .select{
+    min-width:400px;
+  }
+  .search-button{
+    margin: 0 auto;
+    
+  }
+ .search-div{
+    margin: auto;
+    justify-content: center;
+    /* border:solid red; */
+  }
+  
+  form.search-form{
+    padding-right:0px;
+    margin: 0 auto;
+    
+    padding:auto;
+    justify-content: center;
+    
+  }
+}
+.search-button{
+  margin: 0 auto;
+  justify-content: center;
+}
+  @import url('https://fonts.googleapis.com/css?family=Give+You+Glory');
+  
+.body{
+background-color: white;
+}

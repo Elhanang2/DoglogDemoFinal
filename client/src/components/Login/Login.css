@@ -1,0 +1,75 @@
+h3, p{
+  font-family: 'Give You Glory', cursive;
+  color: black;
+  font-size: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+h5{
+	font-family: 'Give You Glory',bold, cursive;
+	justify-content: center;
+}
+
+form{
+	width: 100%;
+	margin: auto;
+}
+
+.form-group.form-group-lg{
+	width: 70%;
+	margin: auto;
+}
+#password.form-control {	
+	width: 100%;
+	height: 50px;
+	margin:auto;
+}
+
+input#email.form-control  {
+	width: 100%;
+	height: 50px;
+	margin:auto;
+	border: 2px solid darkorange;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Give+You+Glory');
+
+@media all and (min-width: 375px) {
+	.Login {
+	  /* padding: 60px 0; */
+	}
+	h5{
+		font-family: 'Give You Glory',bold, cursive;
+		justify-content: center;
+	}
+	.Login form  {
+		font-family: 'Give You Glory', cursive;
+	  margin: 0 auto;
+	  max-width: 320px;
+	  width: 100%;
+	  justify-content: center;
+	  border: 2px solid darkorange;
+	  padding: 20px;
+	  border-radius: 6px;
+	}
+
+	#email.form-control {
+	border: solid 2px darkorange;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	}
+	#password.form-control{
+	  border: solid 2px darkorange;
+	  margin-bottom: 20px;
+ 
+	}
+	.button.button.btn.btn-default {
+		margin-top: 10px;
+		font: 20px;
+		height: 60px;
+		font-weight: bold;
+		text-align: center;
+		margin-left:100%;
+	 }
+ 
+  }

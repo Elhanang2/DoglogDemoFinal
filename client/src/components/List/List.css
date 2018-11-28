@@ -1,0 +1,52 @@
+h2, h3, p{
+  font-family: 'Give You Glory', cursive;
+  color: black;
+  font-size: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Give+You+Glory');
+
+.list-overflow-container {
+  max-height: 545px;
+  border: 1px #DDDDDD solid;
+  border-radius: 4px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.list-overflow-container ul {
+  margin: 0;
+}
+
+.list-overflow-container li {
+  border-radius: 0px;
+  border-left: none;
+  border-right: none;
+}
+
+.list-overflow-container li * {
+  cursor: pointer;
+}
+
+.list-overflow-container li a {
+  color: #2A878C;
+}
+
+.list-overflow-container li:first-child {
+  border-top: none;
+}
+
+.list-overflow-container li:last-child {
+  border-bottom: none;
+}
+
+.list-group-item{
+  width:300px;
+  float: left;
+  padding-left: 30px;
+  margin:30px 30px 30px 0px;
+  border:none;
+  /* justify-content: center; */
+}

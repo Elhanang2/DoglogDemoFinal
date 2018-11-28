@@ -1,0 +1,29 @@
+@media all and (min-width: 480px) {
+.quick-start{
+    font-family: 'Give You Glory', cursive;
+}
+#quicksearch{
+    width:20%;
+    margin: 0 auto;
+    
+    border: solid 2px darkorange;  
+}
+#formControllsSearch{
+    border: solid 2px darkorange;
+    margin: 0 auto;
+    justify-content: center;
+}
+.quickstart-button{
+    padding-left:0px;
+    margin: 0 auto;
+    float: left;
+    clear: both;
+}
+.quicksearch{
+    clear: both;
+    margin: 0 auto;
+    border:auto;
+    
+}
+}
+@import url('https://fonts.googleapis.com/css?family=Give+You+Glory');
