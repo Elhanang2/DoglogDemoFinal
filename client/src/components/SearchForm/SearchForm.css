@@ -12,17 +12,22 @@
     /* border:solid red; */
   }
   
-  form.search-form{
+  form .search-form{
     padding-right:0px;
-    margin: 0 auto;
+  
     
     padding:auto;
     justify-content: center;
     
   }
 }
+.button-default{
+  /* margin: auto; */
+  padding-left: -10px;
+}
 .search-button{
-  margin: 0 auto;
+  margin-left: 33%;
+  
   justify-content: center;
 }
   @import url('https://fonts.googleapis.com/css?family=Give+You+Glory');

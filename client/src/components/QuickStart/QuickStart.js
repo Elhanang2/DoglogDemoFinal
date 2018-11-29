@@ -82,6 +82,7 @@ class QuickStart extends Component {
         return(
             
            <Form className="quick-start" >
+           <div className="quicksearch-form">
                 <FormGroup className="quicksearch" controlId="formControllsSearch">
                     <FormControl
                         type="text"
@@ -100,9 +101,10 @@ class QuickStart extends Component {
                 >
                     Search
                 </Button>
+                </div>
                 <br />
                 <br />
-                {this.state.volunteer.length > 0 && <h2 style={{fontSize:"25px",clear:"both", paddingTop:"20px"}}>
+                {this.state.volunteer.length > 0 && <h2 style={{fontSize:"25px",clear:"both",marginLeft:"40%" ,paddingTop:"20px"}}>
                 Volunteer Lists </h2>}
             
                 {this.state.volunteer.length  ? ( 
@@ -113,7 +115,7 @@ class QuickStart extends Component {
                     
                             <Card className="cards">
                            
-                                <CardHeader ><span style={{ color: "blue",fontSize:"18px" }}>  {volunteerdata.firstname} </span></CardHeader>
+                                <CardHeader ><span style={{ color: "darkorange",fontSize:"18px" }}>  {volunteerdata.firstname} </span></CardHeader>
                           
                                 {<img className={volunteerdata._id} style={{width:150,height:150}} 
                                 
@@ -126,7 +128,7 @@ class QuickStart extends Component {
                                 onSubmitPassword={this.onSubmitPassword(volunteerdata.password,volunteerdata.firstname)}
                                 />}               
                                 {this.state.showRatingForm && <Redirect to={{
-                                    pathname: '/addrating',
+                                    pathname: '/quickrating',
                                     state: { firstname: this.state.firstname}
                                   }} />}
                                 

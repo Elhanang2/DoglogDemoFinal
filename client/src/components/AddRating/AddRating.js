@@ -59,16 +59,16 @@ class AddRating extends Component {
                         <ControlLabel> Volunteer Name </ControlLabel>
                         <input type="text" name="name" vlaue={this.state.name} onChange={this.onAddratingChange }/>
                     </FormGroup>*/}
-                    {<h4>Volunteer Name: {this.props.location.firstname}</h4>}
+                    {/*<h4>Volunteer Name: {this.props.location.firstname}</h4>*/}
                     <br/>
-                    {<h4 style={{color:"blue",fontSize:'14px'}}>rating system: 1 = reasonable, 2 = good; 3 = excellent</h4>}
+                    {<h4 style={{color:"darkorange",fontSize:'24px'}}>rating system: 1 = reasonable, 2 = good; 3 = excellent</h4>}
                     <FormGroup className='field'>
                         <ControlLabel> Dog Id </ControlLabel>
                         <input type="text" name="dog_id" vlaue={this.state.dog_id} onChange={this.onAddratingChange }/>
                     </FormGroup>
                        
                     <FormGroup className='field'>
-                        <ControlLabel> sit_rating </ControlLabel>
+                        <ControlLabel> sit rating </ControlLabel>
                         <FormControl componentClass="select" name="sit_rating" value={this.state.value} onChange={this.onAddratingChange} >
                         <option value='select'> select </option>
                         <option value='1'> 1 </option>
@@ -78,7 +78,7 @@ class AddRating extends Component {
                     </FormGroup>
 
                     <FormGroup className='field'>
-                        <ControlLabel> lay_down_rating </ControlLabel>
+                        <ControlLabel> lay down rating </ControlLabel>
                         <FormControl componentClass="select" name="lay_down_rating" value={this.state.value} onChange={this.onAddratingChange} >
                         <option value='select'> select </option>    
                         <option value='1'> 1 </option>
@@ -88,7 +88,7 @@ class AddRating extends Component {
                     </FormGroup>
 
                     <FormGroup className='field'>
-                        <ControlLabel> walk_on_leash_rating </ControlLabel>
+                        <ControlLabel> walk on leash rating </ControlLabel>
                         <FormControl componentClass="select" name="walk_on_leash_rating" value={this.state.value} onChange={this.onAddratingChange} >
                         <option value='select'> select </option>   
                         <option value='1'> 1 </option>
@@ -98,7 +98,7 @@ class AddRating extends Component {
                     </FormGroup>
 
                     <FormGroup className='field'>
-                        <ControlLabel> sit_in_crate_rating </ControlLabel>
+                        <ControlLabel> sit in crate rating </ControlLabel>
                         <FormControl componentClass="select" name="sit_in_crate_rating" value={this.state.value} onChange={this.onAddratingChange} >
                         <option value='select'> select </option>        
                         <option value='1'> 1 </option>

@@ -23,9 +23,6 @@ class NavBar extends Component {
               <NavItem eventKey={2} href="/dogsearch">
                 search
               </NavItem>
-              <NavItem eventKey={3} href="/gallery">
-                gallery
-              </NavItem>
               
               <NavDropdown eventKey={5} title="admin" id="basic-nav-dropdown">
                 <NavItem eventKey={5.1} href="/addrating">

@@ -181,6 +181,7 @@ class Signup extends Component {
             <FormControl
               autoFocus
               type="file"
+              style={{fontFamily:'Give You Glory'}}
               name="img"
               id="volunteerImg"
               onChange={this.handleInputChange}

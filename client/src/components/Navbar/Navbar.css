@@ -1,13 +1,16 @@
-h2, h3, p, a{
+h2, h3, p {
     background-color: white;
     font-family: 'Give You Glory', cursive;
-    color: maroon;
+    color: black;
     
     font-weight: bold;
     margin-left: 5%;
     margin-right: 5%;
   }
-
+.nav.li.a{
+    width:15%;
+    padding: 20%;
+}
   
   .btn-group-vertical{
     margin-top: 5%;
@@ -19,7 +22,10 @@ h2, h3, p, a{
       border-radius: 6px;
   }
 
-  
+  .container{
+      margin-left: 10%;
+      padding-left: 10%;
+  }
 
   button.button.btn.btn-default{
       background-color: palegoldenrod;

@@ -12,19 +12,19 @@ class Home extends Component {
                  <div >
                 <Carousel>
                     <Carousel.Item id="myCarousel">
-                        <img height={400} src={yellow3}  alt="dogimage" />
+                        <img  src={yellow3}  alt="dogimage" />
                         <Carousel.Caption>
                         <h1 style={{fontSize:"300%"}}>doglog</h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item id="myCarousel">
-                        <img height={400} src={yellow2}  alt="dogimage" />
+                        <img  src={yellow2}  alt="dogimage" />
                         <Carousel.Caption>
                         <h1 style={{fontSize:"300%"}}>doglog</h1>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item id="myCarousel">
-                        <img height={400} src={yellow1}  alt="dogimage" />
+                        <img  src={yellow1}  alt="dogimage" />
                         <Carousel.Caption>
                         <h1 style={{fontSize:"300%"}}>doglog</h1>
                         </Carousel.Caption>

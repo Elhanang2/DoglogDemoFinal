@@ -24,7 +24,7 @@ h1{
     padding-top: 0;
     padding-bottom:0px; 
     max-width:1500px;
-    height: 600px;
+    /* height: 600px; */
     overflow: hidden;
 }
 @import url('https://fonts.googleapis.com/css?family=Give+You+Glory');

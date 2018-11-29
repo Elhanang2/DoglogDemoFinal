@@ -83,7 +83,7 @@ componentDidMount() {
                 
             
                 <ButtonGroup className="search-button" vertical>
-                <h3> Dogs Search </h3>
+                
                 <br/>
                     <FormGroup className="Button">
                         { /*<ControlLabel>Size</ControlLabel>*/}
@@ -123,7 +123,7 @@ componentDidMount() {
                         <br/>
                 </ButtonGroup>
                 {this.state.animal.length > 0 && 
-                <h3 style={{fontSize:"32px",paddingLeft:"0"}}>Dogs Lists</h3> }
+                <h3 style={{fontSize:"32px",paddingLeft:"0"}}></h3> }
             
                 {this.state.animal.length > 0 ? ( 
                   <List>
@@ -132,38 +132,33 @@ componentDidMount() {
                 
                         <Card className="cards">
                           <CardBody>
-                          <CardHeader ><span style={{ color: "blue",fontSize:"22px" }}>Dog Name : {animaldata.dogname} </span></CardHeader>
+                          <CardHeader ><span style={{ color: "darkorange",fontSize:"22px" }}>Dog Name : {animaldata.dogname} </span></CardHeader>
                           </CardBody>
                           {<img style={{width:150,height:150}} src={ animaldata.image } alt="dogimage"/>}
                           <CardBody>
-                          <CardText><span style={{ color: "blue",fontSize:"22px" }}> Weight : {animaldata.weight} </span></CardText>
-                          <CardText><span style={{ color: "blue",fontSize:"22px" }}> Age : {animaldata.age} </span></CardText>
-                          <CardText><span style={{ color: "blue",fontSize:"22px" }}> Sex : {animaldata.sex} </span></CardText>
+                          <CardText><span style={{ color: "darkorange",fontSize:"22px" }}> Weight : {animaldata.weight} </span></CardText>
+                          <CardText><span style={{ color: "darkorange",fontSize:"22px" }}> Age : {animaldata.age} </span></CardText>
+                          <CardText><span style={{ color: "darkorange",fontSize:"22px" }}> Sex : {animaldata.sex} </span></CardText>
                           
                           </CardBody>
                         </Card>
-                    <Button onClick={()=> { this.getVolenteerRatingFromdb(animaldata._id)}}>Ratings</Button>
+                    <Button style={{marginLeft:"-5px"}} onClick={()=> { this.getVolenteerRatingFromdb(animaldata._id)}}>Ratings</Button>
                    
                     {this.state.showrating === animaldata._id && this.state.rating.length >0 && 
                         // <Jumbotron style={{backgroundColor:"paleturquoise"}}>
-                    <h1 style={{color:"maroon", paddingLeft:"0px"}}>Rating Lists</h1> 
+                    <h1 style={{color:"maroon", paddingLeft:"0px"}}></h1> 
                     // </Jumbotron>
                 }
                         {this.state.showrating === animaldata._id && this.state.rating.length >0 ? ( 
-                          <List>
+                          <ul style={{width:"100%"}}>
                             {this.state.rating.map(ratingdata => (
-                              <ListItem inline className="ratinglist"  key={ratingdata._id}>
-                        
-                                <Card className="cards">
-                                  <CardBody>
-                                  <CardHeader ><span style={{ color: "blue" ,fontSize:"18px", paddingRight:"0px"}}>Volunteer Comment : {ratingdata.comment} </span></CardHeader>
-                                  </CardBody>
-                                  
-                                </Card>
+                              <li inline className="ratinglist" style={{width:"100%"}} key={ratingdata._id}>
+                             <p> Volunteer Comment : {ratingdata.comment}</p>
+                               
                             
-                              </ListItem>
+                              </li>
                             ))}
-                          </List>
+                          </ul>
                             ) : null}                
                             
                             

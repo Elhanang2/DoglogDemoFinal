@@ -32,6 +32,7 @@ class App extends Component {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/animals" component={Animalinfo} />  
           <Route exact path="/quickstart" component={QuickStart} />
+          <Route exact path="/quickrating" component={AddRating} />
           <Route path="/login" component={Login} />
           <PrivateRoute path="/addrating" component={AddRating} />
         </div>
